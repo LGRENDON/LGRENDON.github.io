@@ -31,7 +31,7 @@ export type SiteConfig = {
     image?: Image;
     headerNavLinks?: Link[];
     footerNavLinks?: Link[];
-    socialLinks?: Link[];
+    contact?: Link[];
     hero?: Hero;
     subscribe?: Subscribe;
     postsPerPage?: number;
@@ -41,7 +41,7 @@ export type SiteConfig = {
 const siteConfig: SiteConfig = {
     website: 'https://example.com',
     title: 'Luis Gerardo Rendón Tapia',
-    subtitle: 'B.S. in Mechatronics Engineering (BME)',
+    subtitle: 'B.S. in Mechatronics Engineering (BME) // Concentration in Aeronautical Engineering',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -77,15 +77,11 @@ const siteConfig: SiteConfig = {
         {
             text: 'Terms',
             href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
     ],
-    socialLinks: [
+    contact: [
         {
-            text: 'Dribbble',
+            text: 'Dribble',
             href: 'https://dribbble.com/'
         },
         {
@@ -98,8 +94,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Welcome to my portfolio! ',
+        text: "I'm **Luis Rendón**, I'm a mechatronics engineer with a concentration in aeronautical engineering. My approach involves KISS methology, creativity and aesthetics as a catalyst for exceptional products. I have a profound appreciation for automation, coding for microcontrollers, CAD, and CAE enthusiast. Feel free to explore some of my endeavors on this blog. You can also ask me for more information for every project! =)",
         image: {
             src: '/hero.jpeg',
             alt: 'A person sitting at a desk in front of a computer'
