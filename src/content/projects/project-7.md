@@ -8,7 +8,7 @@ seo:
     src: 'project-7.jpg'
 ---
 
-![Project preview](/project-7.jpg)
+![Project preview](/keiko-iso.jpg)
 
 
 
