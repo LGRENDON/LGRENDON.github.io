@@ -44,7 +44,7 @@ const siteConfig: SiteConfig = {
     subtitle: 'B.S. in Mechatronics Engineering (BME) // Concentration in Aeronautical Engineering',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
-        src: '/dante-preview.jpg',
+        src: '/luis_foto.jpeg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
     },
     headerNavLinks: [
