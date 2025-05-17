@@ -16,7 +16,7 @@ seo:
 
 The team became the first Latin American robot to reach the world championship finals at the FIRST Robotics Competition, standing out among more than 3,600 teams from around the globe. Contributing to the design and manufacturing of the elevator subsystem played a key role in the robot’s performance, enabling precise and reliable scoring throughout the competition. This milestone not only highlighted the team’s engineering capabilities, but also marked a significant moment for Latin America in one of the world’s most prestigious youth robotics events.
 
-![Project preview](/keiko-iso-ext.jpg)
+![Project preview](/keiko-iso-ext.JPG)
 
 
 **Project Overview:**
