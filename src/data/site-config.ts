@@ -98,7 +98,7 @@ const siteConfig: SiteConfig = {
         text: "I'm **Luis Rendón**, I'm a mechatronics engineer with a concentration in aeronautical engineering. My approach involves methodologies , creativity and aesthetics as a catalyst for exceptional products. I have a profound appreciation for automation, coding for microcontrollers, CAD, and CAE enthusiast. Feel free to explore some of my endeavors on this blog. You can also ask me for more information for every project! =)",
         image: {
             src: '/luis_foto.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            alt: 'This si me !'
         },
         actions: [
             {
