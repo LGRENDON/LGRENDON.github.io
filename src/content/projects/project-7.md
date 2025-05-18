@@ -1,7 +1,7 @@
 ---
-title: Keiko - 2025 FRC Robot 
+title: KEIKO - 2025 FRC Robot 
 description: Mentored subteam CAD design for the elevator mechanism.
-publishDate: '2025-04-18'
+publishDate: 'Apr 15 2025'
 isFeatured: true
 image:
   src: '/keiko-iso.jpg'
@@ -19,6 +19,7 @@ seo:
 
 **This project was part of a historic achievement:** 
 
+I'm very proud of my contribution with the first robot in Latinamerica that goes to Einstein (worlds finals)
 The team became the first Latin American robot to reach the world championship finals at the FIRST Robotics Competition, standing out among more than 3,600 teams from around the globe. Contributing to the design and manufacturing of the elevator subsystem played a key role in the robot’s performance, enabling precise and reliable scoring throughout the competition. This milestone not only highlighted the team’s engineering capabilities, but also marked a significant moment for Latin America in one of the world’s most prestigious youth robotics events.
 
 ![Project preview](/keiko-iso-ext.JPG)

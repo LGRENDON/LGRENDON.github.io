@@ -1,7 +1,11 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
-publishDate: 'Jan 02 2024'
+title: 'GIPSY - 2022 FRC Robot'
+description: Mentored subteam CAD design for the intake and arms mechanism.
+publishDate: 'Jan 02 2022'
+isFeatured: true
+image:
+  src: '/project-1.jpg'
+  alt: 'Nessy ISO view'
 seo:
   image:
     src: '/project-1.jpg'

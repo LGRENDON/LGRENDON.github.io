@@ -1,11 +1,16 @@
 ---
-title: 'PixelPerfect Art Gallery'
+title: 'MICHELANGELO (MICKEY)- 2024 FRC Robot '
 description: PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces.
-publishDate: 'Oct 25 2023'
+publishDate: 'Apr 15 2024'
 isFeatured: true
+image:
+  src: '/project-5.jpg'
+  alt: 'mikey FRC 2024 robot ISO view'
 seo:
   image:
     src: '/project-5.jpg'
+    alt: 'mikey FRC 2024 elevator preview'
+
 ---
 
 ![Project preview](/project-5.jpg)

@@ -1,12 +1,15 @@
 ---
-title: 'TimeWarp - Travel Agency Website'
-description: Explore the possibilities of time travel through an immersive website for a fictional travel agency, complete with dynamic destination timelines and interactive historical events.
-publishDate: 'Oct 2 2023'
+title: 'NESSY - 2023 FRC Robot'
+description: Mentored subteam CAD design for the arm and wirst mechanism.
+publishDate: 'Jan 2 2023'
 isFeatured: true
+image:
+  src: '/project-2.jpg'
+  alt: 'Nessy ISO view'
 seo:
   image:
     src: '/project-2.jpg'
-    alt: Project preview
+    alt: 'Nessy preview'
 ---
 
 ![Project preview](/project-2.jpg)
