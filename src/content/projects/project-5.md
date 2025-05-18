@@ -4,21 +4,26 @@ description: PixelPerfect Art Gallery is an innovative online platform that tran
 publishDate: 'Apr 15 2024'
 isFeatured: true
 image:
-  src: '/project-5.jpg'
+  src: '/mickey_iso.png'
   alt: 'mikey FRC 2024 robot ISO view'
 seo:
   image:
-    src: '/project-5.jpg'
+    src: '/mickey_iso.png'
     alt: 'mikey FRC 2024 elevator preview'
 
 ---
 
-![Project preview](/project-5.jpg)
+![Project preview](/mickey_iso.png)
 
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
 PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces. This web application is dedicated to showcasing and celebrating pixel art in the form of Non-Fungible Tokens (NFTs), providing artists with a digital canvas to display their unique creations while ensuring secure ownership through blockchain technology.
+
+![Project preview](/mickey_front.jpg)
+![Project preview](/mickey_iso_real_endgame.jpg)
+![Project preview](/mickey_iso_real.jpg)
+
 
 ## Objectives
 

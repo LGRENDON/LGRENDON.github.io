@@ -4,23 +4,23 @@ description: Mentored subteam CAD design for the arm and wirst mechanism.
 publishDate: 'Jan 2 2023'
 isFeatured: true
 image:
-  src: '/project-2.jpg'
+  src: '/nessy_iso_rend.jpg'
   alt: 'Nessy ISO view'
 seo:
   image:
-    src: '/project-2.jpg'
+    src: '/nessy_iso_rend.jpg'
     alt: 'Nessy preview'
 ---
 
-![Project preview](/project-2.jpg)
+![Project preview](/nessy_iso_rend.jpg)
 
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
-
+![Project preview](/nessy_iso.png)
 **Project Overview:**
 TimeWarp Travel Agency aims to redefine the travel experience by offering an innovative and immersive online platform that explores the concept of time travel. The website combines cutting-edge technology with captivating storytelling to provide users with a unique journey through time.
 
 > Working with Ethan Donovan was a game-changer for our online presence. Their innovative solutions and attention to detail turned our vision into a reality. The website not only looks fantastic but also functions seamlessly. A true professional who exceeded our expectations!
-
+![Project preview](/nessy_real.jpg)
 ## Objectives
 
 1. Create a visually stunning and user-friendly website that captures the essence of time travel.

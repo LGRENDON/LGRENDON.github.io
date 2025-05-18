@@ -4,10 +4,12 @@ description: Served on the CAD subteam, focusing on the design and development o
 publishDate: 'Apr 15 2020'
 isFeatured: true
 image:
-  src: '/keiko-iso.jpg'
+  src: '/lx_iso_rend.jpg'
   alt: 'Keiko FRC 2025 robot ISO view'
 seo:
   image:
-    src: '/keiko-iso.jpg'
+    src: '/lx_iso_rend.jpg'
     alt: 'Keiko FRC 2025 elevator preview'
 ---
+
+![Project preview](/lx_iso_rend.jpg)

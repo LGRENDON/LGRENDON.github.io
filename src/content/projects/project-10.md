@@ -4,10 +4,23 @@ description: Developed a semi-automated cell for Parker’s valve assembly proce
 publishDate: 'Apr 15 2024'
 isFeatured: true
 image:
-  src: '/keiko-iso.jpg'
+  src: '/parker_iso_layout.png'
   alt: 'Keiko FRC 2025 robot ISO view'
 seo:
   image:
-    src: '/keiko-iso.jpg'
+    src: '/parker_iso_layout.png'
     alt: 'Keiko FRC 2025 elevator preview'
 ---
+![Project preview](/parker_iso_layout.png)
+![Project preview](/parker_iso_prensa.png)
+![Project preview](/parker_iso.png)
+
+![Project preview](/parker_layout_2d.png)
+![Project preview](/parker_layout_render.png)
+![Project preview](/parker_robot_tool.png)
+
+![Project preview](/parker_supply_iso_render.png)
+
+![Project preview](/parker_tolva_render.jpg)
+![Project preview](/parker_tolvas_render.jpg)
+

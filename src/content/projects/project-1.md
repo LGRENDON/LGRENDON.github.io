@@ -4,20 +4,22 @@ description: Mentored subteam CAD design for the intake and arms mechanism.
 publishDate: 'Jan 02 2022'
 isFeatured: true
 image:
-  src: '/project-1.jpg'
+  src: '/gipsy_iso_rend.jpg'
   alt: 'Nessy ISO view'
 seo:
   image:
-    src: '/project-1.jpg'
+    src: '/gipsy_iso_rend.jpg'
     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+![Project preview](/gipsy_iso_rend.jpg)
 
 **Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
 **Project Overview:**
 EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+
+![Project preview](/gipsy_iso.png)
 
 ## Objectives
 
@@ -59,6 +61,7 @@ EcoBuddy is a revolutionary mobile application designed to make sustainable livi
 - Database: Firestore for scalable and flexible data storage.
 - AI Integration: Dialogflow for natural language processing and conversation with EcoEducator.
 
+![Project preview](/gipsy_real_iso.jpg)
 ## Outcome
 
 EcoBuddy has successfully created a community of environmentally conscious individuals who actively participate in sustainable living practices. The app not only educates and motivates users but also provides tangible rewards for their commitment to a greener lifestyle, fostering a positive impact on the environment.
