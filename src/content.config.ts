@@ -1,5 +1,5 @@
-import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
+import { defineCollection, z } from 'astro:content';
 
 const seoSchema = z.object({
     title: z.string().min(5).max(120).optional(),
@@ -33,7 +33,6 @@ const pages = defineCollection({
         seo: seoSchema.optional()
     })
 });
-
 const projects = defineCollection({
     loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/projects' }),
     schema: z.object({
@@ -41,8 +40,18 @@ const projects = defineCollection({
         description: z.string().optional(),
         publishDate: z.coerce.date(),
         isFeatured: z.boolean().default(false),
-        seo: seoSchema.optional()
-    })
+
+        // <-- Aquí agregamos image:
+        image: z
+            .object({
+                src: z.string(),
+                alt: z.string().optional(),
+                caption: z.string().optional(),
+            })
+            .optional(),
+
+        seo: seoSchema.optional(),
+    }),
 });
 
 export const collections = { blog, pages, projects };

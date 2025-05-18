@@ -1,11 +1,16 @@
 ---
 title: Keiko - 2025 FRC Robot 
 description: Mentored subteam CAD design for the elevator mechanism.
-publishDate: 'April 18 2025'
+publishDate: '2025-04-18'
 isFeatured: true
+image:
+  src: '/keiko-iso.jpg'
+  alt: 'Keiko FRC 2025 robot ISO view'
 seo:
   image:
-    src: 'project-7.jpg'
+    src: '/keiko-iso.jpg'
+    alt: 'Keiko FRC 2025 elevator preview'
+
 ---
 
 ![Project preview](/keiko-iso.jpg)
@@ -32,27 +37,22 @@ This project involved mentoring a high school robotics team competing in the FIR
 
 ## Features
 
-1. **Custom-designed elevator system:**
+1. **Custom-designed dual-stage elevator**
+   - Capable of lifting game elements to high-scoring zones with precision.
+   - Designed for lightweight performance using aluminum profiles and 3D-printed mounts.
 
-- CryptoTrader Dashboard aggregates data from multiple cryptocurrency exchanges, allowing users to view their entire portfolio in one centralized location.
-- Real-time updates provide the latest market prices, trading volumes, and order book data.
+2. **Full 3D parametric CAD model**
+   - Developed using SolidWorks and Fusion 360, complete with assembly constraints and manufacturing drawings.
 
-2. **Full 3D parametric CAD model:**
+3. **Cable-driven linear motion system**
+   - Ensured smooth extension/retraction with reduced backlash and tensioning mechanisms.
 
-- Users can analyze their portfolio's performance through interactive charts and graphs.
-- The dashboard offers insights into historical performance, asset allocation, and profit/loss over time.
+4. **Iterative prototyping and testing**
+   - Included physical mockups, simulations, and design reviews with students for continuous improvement.
 
-3. **Implementation of cable-driven linear motion:**
+5. **Integration with wrist subsystem**
+   - Synchronized vertical and rotational movements for optimized game interaction.
 
-- Advanced risk management tools help users assess the volatility and potential risks associated with their cryptocurrency investments.
-- Users receive alerts for significant market fluctuations or changes in their portfolio value.
-
-4. **iterative design reviews:**
-
-- The dashboard automatically tracks and records users' cryptocurrency transactions, simplifying the process of updating and managing portfolios.
-- Users can categorize transactions, add notes, and maintain a comprehensive transaction history.
-
-5. **News and Market Insights:**
 
 ## Technology Stack
 

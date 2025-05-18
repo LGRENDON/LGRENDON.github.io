@@ -38,6 +38,8 @@ export type SiteConfig = {
     projectsPerPage?: number;
 };
 
+
+
 const siteConfig: SiteConfig = {
     website: 'https://example.com',
     title: 'Luis Gerardo Rendón Tapia',
@@ -58,11 +60,13 @@ const siteConfig: SiteConfig = {
         },
         {
             text: 'Blog',
-            href: '/blog'
+            href: '/about'
+            //href: '/blog'
         },
         {
             text: 'Tags',
-            href: '/tags'
+            href: '/contact'
+            //href: '/tags' quitar comentario cuando blog y tag este listo
         }
     ],
     footerNavLinks: [

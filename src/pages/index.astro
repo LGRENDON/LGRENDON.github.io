@@ -4,7 +4,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import Button from '../components/Button.astro';
 import Hero from '../components/Hero.astro';
 import PostPreview from '../components/PostPreview.astro';
-import ProjectPreview from '../components/ProjectPreview.astro';
 import siteConfig from '../data/site-config';
 import { sortItemsByDateDesc } from '../utils/data-utils';
 
@@ -13,34 +12,57 @@ const featuredPosts = posts.filter(({ data }) => data.isFeatured);
 
 const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
 const featuredProjects = projects.filter(({ data }) => data.isFeatured);
+
+// Debug para desarrollo:
+console.log('Featured projects:', featuredProjects);
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
-    <Hero />
-    {
-        featuredProjects?.length > 0 && (
-            <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Projects</h2>
-                {featuredProjects.map((project) => (
-                    <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
-                ))}
-                <div class="mt-12 sm:mt-16">
-                    <Button href="/projects">View All Projects</Button>
+  <Hero />
+
+  {featuredProjects.length > 0 && (
+    <section class="mb-16 sm:mb-24">
+      <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Projects</h2>
+      <div class="space-y-12">
+       {featuredProjects.map((project) => {
+            // Solo accedemos a src si image existe
+            const imageSrc = project.data.image ? project.data.image.src : null;
+
+            console.log('Imagen de proyecto:', imageSrc);
+
+            return (
+                <a href={`/projects/${project.id}/`} class="flex items-center gap-8 group" key={project.id}>
+                {project.data.image && (
+                    <img
+                    src={project.data.image.src}
+                    alt={project.data.image.alt ?? project.data.title}
+                    class="w-48 h-48 object-cover rounded-xl shadow-md transition group-hover:scale-105"
+                    loading="lazy"
+                    />
+                )}
+                <div>
+                    <h3 class="text-2xl font-serif font-medium group-hover:underline">{project.data.title}</h3>
+                    <p class="mt-1 text-sm">{project.data.description}</p>
                 </div>
-            </div>
-        )
-    }
-    {
-        featuredPosts?.length > 0 && (
-            <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Writing</h2>
-                {featuredPosts.map((post) => (
-                    <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
-                ))}
-                <div class="mt-12 sm:mt-16">
-                    <Button href="/blog">View All Posts</Button>
-                </div>
-            </div>
-        )
-    }
+                </a>
+            );
+        })}
+      </div>
+      <div class="mt-12 sm:mt-16">
+        <Button href="/projects">View All Projects</Button>
+      </div>
+    </section>
+  )}
+
+  {featuredPosts.length > 0 && (
+    <section class="mb-16 sm:mb-24">
+      <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Writing</h2>
+      {featuredPosts.map((post) => (
+        <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
+      ))}
+      <div class="mt-12 sm:mt-16">
+        <Button href="/blog">View All Posts</Button>
+      </div>
+    </section>
+  )}
 </BaseLayout>

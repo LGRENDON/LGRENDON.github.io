@@ -1,5 +1,5 @@
 ---
-title: About
+title: About me!
 seo:
   title: About Me
   description: Learn more about the person you could be working with!.
@@ -8,36 +8,35 @@ seo:
     alt: A person sitting at a desk in front of a computer
 ---
 
-![Alt text for image](/about.jpg)
+<img src="/about.jpg" alt="Alt text for image" class="w-48 sm:w-64 md:w-80 lg:w-96 mx-auto rounded-lg" />
 
-**Note!:** This about page is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
 
-## Ethan Donovan - Web Developer based in Estonia
+## 
 
-**Greetings!** I'm Ethan Donovan, a passionate web developer residing in the picturesque landscapes of [Estonia](https://en.wikipedia.org/wiki/Estonia). With a keen eye for design and a love for crafting seamless digital experiences, I bring a unique blend of creativity and technical expertise to the world of web development.
+**Greetings!** I’m Luis Gerardo Rendón Tapia, a mechatronics engineering student at Tecnológico de Monterrey with a specialization in aeronautics. Beyond my academic and technical pursuits, I enjoy hiking, swimming, going to the gym, and taking my dog on long walks—activities that keep me balanced, energized, and focused.
 
 ## Skills and Expertise
 
-I specialize in front-end and back-end development, utilizing the latest technologies to build responsive and user-friendly websites. My proficiency includes **HTML**, **CSS**, **JavaScript**, and frameworks such as **Astro.js** for dynamic and interactive user interfaces. On the server side, I'm well-versed in Node.js and have experience with database management systems like MongoDB.
+I bring strong proficiency in CAD tools (SolidWorks, Fusion 360, Onshape), programming (Python, MATLAB, C/C++, ROS, Arduino), and hands-on experience with multimeters, oscilloscopes, CNC machines, and 3D printers. I’m fluent in Spanish, proficient in English (B2), and learning German (A1).
 
 ## Innovation and Problem-Solving
 
-I thrive on solving complex problems and transforming ideas into functional, elegant websites. Whether it's optimizing performance, implementing new features, or troubleshooting issues, I approach each challenge with enthusiasm and a commitment to delivering high-quality solutions.
+As a Project Manager while studying my last year of the university, I lead teams through all stages of product development—from ideation to implementation. Whether it’s designing AGVs for industrial partners like John Deere or prototyping 3D-modeled aircraft, I take pride in solving real-world challenges through structured planning, creative engineering, and agile execution.
 
 ## Global Perspective, Local Impact
 
-Living in Estonia has not only influenced my appreciation for nature and culture but has also shaped my approach to web development. I understand the importance of creating digital solutions that resonate with local audiences while maintaining a global perspective.
+While I operate globally—such as contributing to the first Latin American FRC robot to reach the world championship finals—I remain grounded in creating meaningful impact locally, mentoring students and developing engineering solutions tailored to real-world needs.
 
 ## Continuous Learning
 
-The dynamic nature of the tech industry inspires me to stay up-to-date with the latest trends and advancements. I'm always eager to expand my skill set and embrace emerging technologies that enhance the functionality and aesthetics of the websites I create.
+I’m deeply committed to lifelong learning. Whether it’s earning certifications like CSWP in SolidWorks and ABB’s RobotStudio, or exploring new technologies in automation, CAD, and control systems, I constantly seek opportunities to grow and expand my knowledge.
 
 ## Collaboration and Communication
 
-I believe in the power of collaboration and effective communication. Whether working with clients, designers, or fellow developers, I value clear communication to ensure the success of every project.
+Through my experience as a project manager in tech initiatives and as a mentor in robotics, I’ve learned the value of clear communication and teamwork. I thrive in interdisciplinary teams, bringing together diverse skills to solve complex problems effectively.
 
 ## Get in Touch
 
-Are you looking to elevate your online presence or bring your digital ideas to life? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things web development.
+Are you looking for a new member for your team? I'd love to hear from you! Feel free to reach out for collaboration, consultation, or just a friendly chat about all things to develop.
 
 _Let's build something amazing together!_

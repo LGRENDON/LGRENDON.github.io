@@ -5,7 +5,7 @@ seo:
   description: Get in touch through email or social media! Let me know how I can help.
 ---
 
-Thank you for reaching out! Whether you have a question, more and detaioled information, I'm all ears. Feel free to get in touch through any of the methods below:
+Thank you for reaching out! Whether you have a question, more and detailed information, I'm all ears. Feel free to get in touch through any of the methods below:
 
 _Email:_
 Feel free to drop me an email at [luis.rendon.tapia@gmail.com](mailto:luis.rendon.tapia@gmail.com), and I'll do my best to respond as soon as possible.
