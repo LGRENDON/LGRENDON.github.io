@@ -99,10 +99,17 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: 'Welcome to my portfolio! ',
-        text: "I'm **Luis Rendón**, I'm a mechatronics engineer with a concentration in aeronautical engineering. My approach involves methodologies , creativity and aesthetics as a catalyst for exceptional products. I have a profound appreciation for automation, coding for microcontrollers, CAD, and CAE enthusiast. Feel free to explore some of my endeavors on this blog. You can also ask me for more information for every project! =)",
+        text: `I am a passionate mechatronics engineer-in-training with a creative spirit and a practical approach to solving complex problems. Beyond engineering, I see myself as a builder of ideas—combining innovation with technical discipline to transform concepts into real-world solutions that make an impact.
+
+I love learning and experimenting, always seeking to connect different fields—mechanics, electronics, and programming—to create intelligent and efficient systems. I believe in the power of collaboration and leadership based on trust, respect, and a shared passion for what we do.
+
+Every day, I enjoy tackling technical challenges, from designing prototypes to programming drones and developing autonomous vehicles. I also find great fulfillment in mentoring others in robotics. Fluent in three languages, I am committed to continuous growth, both professionally and personally.
+
+My goal is to be a change-maker in engineering, driving projects that not only work but surprise and deliver real value. I am curious, methodical, and always ready to go the extra mile.`,
+
         image: {
             src: '/luis_foto.jpg',
-            alt: 'This si me !'
+            alt: 'This is me!'
         },
         actions: [
             {
@@ -111,6 +118,7 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
+
     subscribe: {
         title: 'Subscribe to Dante Newsletter',
         text: 'One update per week. All the latest posts directly in your inbox.',
