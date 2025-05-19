@@ -2,7 +2,7 @@
 title: NUTEC - AGV Pushing car
 description: This is an AGV design to move a 6tn platforms autonomously
 publishDate: 'Jan 28 2025'
-isFeatured: true
+isFeatured: false
 image:
   src: '/project-6.jpg'
   alt: 'NUTEC AGV ISO view'
