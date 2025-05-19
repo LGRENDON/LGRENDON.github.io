@@ -4,10 +4,13 @@ description: Proposed a fully autonomous robotic cell for laser welding, designe
 publishDate: 'Jan 28 2024'
 isFeatured: true
 image:
-  src: '/project-6.jpg'
+  src: '/ABB_CELL.jpg'
   alt: 'NUTEC AGV ISO view'
 seo:
   image:
-    src: '/project-6.jpg'
+    src: '/ABB_CELL.jpg'
     alt: 'Keiko FRC 2025 elevator preview'
 ---
+
+
+![Project preview](/ABB_CELL.jpg)
