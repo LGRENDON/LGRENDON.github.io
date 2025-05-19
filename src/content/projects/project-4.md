@@ -4,13 +4,19 @@ description: Design, simulate with CFD analysis and manufacture a sclae plane to
 publishDate: 'Jan 01 2024'
 isFeatured: true
 image:
-  src: '/project-4.jpg'
+  src: '/airplane_artisty.jpg'
   alt: 'MODEL PLANE ISO view'
 seo:
   image:
-    src: '/project-4.jpg'
+    src: '/airplane_artisty.jpg'
     alt: 'MODEL PLANE preview'
 ---
 
-![Project preview](/project-4.jpg)
+![Project preview](/airplane_artisty.jpg)
 
+![Project preview](/airplame_selfie.jpg)
+<video
+  src="/airplane_flying.mp4"
+  controls
+  class="rounded-xl shadow-lg max-w-3xl mx-auto my-6"
+/>
