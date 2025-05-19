@@ -1,6 +1,6 @@
 ---
 title: LX - 2020 FRC Robot 
-description: Served on the CAD subteam, focusing on the design and development of the elevator mechanism.
+description: Served on the CAD subteam, focusing on the design and development of the elevator mechanism under GM mentors supervition.
 publishDate: 'Apr 15 2020'
 isFeatured: true
 image:

@@ -1,6 +1,6 @@
 ---
 title: 'MICHELANGELO (MICKEY)- 2024 FRC Robot '
-description: PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces.
+description: Mentored a subteam CAD design for the elevator, scalator and wirst subsystem.
 publishDate: 'Apr 15 2024'
 isFeatured: true
 image:
